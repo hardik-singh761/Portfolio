@@ -521,3 +521,120 @@ a {
     height: 100%;
     border-radius: 5px;
 }
+@media (max-width: 768px) {
+    .home-section,
+    .project-section,
+    .about-section,
+    .contact-section {
+        padding: 0 20px;
+    }
+
+    .link a {
+        padding: 10px 15px;
+        margin: 0 10px;
+        font-size: 16px;
+    }
+
+    .hero-heading {
+        font-size: 3rem;
+    }
+
+    .project-heading,
+    .contact-title {
+        font-size: 50px;
+    }
+
+    .project-container {
+        grid-template-columns: 1fr;
+        grid-gap: 50px;
+    }
+
+    .project-card {
+        height: auto;
+    }
+
+    .project-title {
+        font-size: 30px;
+    }
+
+    .project-info {
+        font-size: 16px;
+        margin: 20px 0;
+    }
+
+    .project-btn-grp {
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+
+    .about {
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+
+    .heading {
+        font-size: 40px;
+    }
+
+    .skills-container {
+        grid-template-columns: 1fr;
+        grid-gap: 50px;
+    }
+
+    .timeline {
+        width: 90%;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .card:nth-child(even),
+    .card:nth-child(odd) {
+        margin: 0;
+    }
+
+    .card:nth-child(even):before,
+    .card:nth-child(odd):before,
+    .card:nth-child(even):after,
+    .card:nth-child(odd):after {
+        display: none;
+    }
+
+    .contact-form {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-heading {
+        font-size: 2.5rem;
+    }
+
+    .link a {
+        padding: 10px;
+        margin: 0 5px;
+        font-size: 14px;
+    }
+
+    .project-heading,
+    .contact-title {
+        font-size: 40px;
+    }
+
+    .project-title {
+        font-size: 24px;
+    }
+
+    .project-info {
+        font-size: 14px;
+    }
+
+    .heading {
+        font-size: 30px;
+    }
+
+    .skill-name {
+        font-size: 24px;
+    }
+}
