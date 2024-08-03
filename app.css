@@ -469,3 +469,62 @@ nav.scrolled {
     display: block;
   }
 }
+@media (max-width: 1050px) {
+  .home-right img {
+    height: 35vh;
+  }
+  .home-left {
+    font-size: max(1vw, 30px);
+  }
+  .about-design {
+    margin: 1vw;
+  }
+  .contact {
+    margin-left: 5vw;
+  }
+  .map {
+    margin-right: 5vw;
+  }
+}
+@media (max-width: 500px) {
+  .home-right img {
+    height: 25vh;
+  }
+  .home-left {
+    font-size: max(1vw, 15px);
+  }
+  .about-design {
+    margin: 1vw;
+    font-size: max(1vw,10px);
+    width: 100%;
+    margin: 20px;
+  }
+  .about{
+    height: 150vh;
+  }
+  .one{
+    flex-direction: column;
+  }
+  .two{
+    flex-direction: column;
+  }
+  .social a{
+    margin: 1px 10px;
+  }
+  .projects{
+    height: 150vh;
+  }
+  .skills{
+    height: 150vh;
+  }
+  .cards{
+    grid-template-columns: 1fr;
+  }
+  .contact {
+    margin-left: 5vw;
+  }
+  .map {
+    margin-right: 5vw;
+    height: 30vh;
+  }
+}
