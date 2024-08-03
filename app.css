@@ -122,8 +122,8 @@ nav.scrolled {
   width: 25vw;
   height: 70vh;
   border: 3px solid #0f0f0f;
-  border-radius: 50px;
-  box-shadow: 0 0 15px #fec576;
+  border-radius: 50%;
+  box-shadow: 0 0 40px 7px #fec576;
 }
 .about {
   width: 100%;
