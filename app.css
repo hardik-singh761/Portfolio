@@ -399,7 +399,6 @@ nav.scrolled {
   border: 1px solid var(--secondary-color);
   margin-bottom: 30px;
   border-radius: 5px;
-  text-transform: capitalize;
   color: var(--secondary-color);
   padding: 5px 10px;
 }
