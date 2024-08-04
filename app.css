@@ -68,11 +68,14 @@ nav.scrolled {
 .navbar-right li {
   margin: 0 10px;
 }
-.navbar-right a {
+.tag{
   text-decoration: none;
   font-size: max(1vw, 25px);
   color: var(--secondary-color);
   position: relative;
+}
+.active{
+  color: var(--highlight-color);
 }
 .navbar-right a::after {
   content: "";
