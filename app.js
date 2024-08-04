@@ -28,3 +28,13 @@ theme.addEventListener("click", () => {
     theme.innerHTML = "&#9788;"; // sun symbol
   }
 });
+
+//active navbar links.
+const tags = document.querySelectorAll(".tag");
+
+tags.forEach((tag) => {
+  tag.addEventListener("click", () => {
+    document.querySelector(".active")?.classList.remove("active");
+    tag.classList.toggle("active");
+  });
+});
